@@ -1,5 +1,7 @@
-import math
-x=math.sin(30) # radians
-y=math.sin(math.radians(30))
+nums = [1,2,2,3]
+
+
+x=nums.copy()
+x.sort(reverse=True)
+
 print(x)
-print(y)
