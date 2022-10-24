@@ -1,0 +1,50 @@
+List
+1. add
+    - append()
+    - insert(index, data)
+2. delete
+    - remove()
+    - pop()
+    - clear()
+    - del()
+3. others
+    - extend()
+    - sort()
+    - reverse
+    - min(), max(), sum()
+    - zip(lis1, lis2)
+    - copy()
+    - len()
+    - index() หาว่าอยู่ index อะไร
+
+tuple convert to list first
+
+Set
+1. add
+    - add()
+    - update()
+2. delete
+    - remove()
+    - discard()
+    - clear()
+3. operator
+    - union
+    - intersection
+    - difference
+    - issubset
+    - issuperset
+4. others
+    - min(), max(), sum()
+    - len()
+    - copy()
+
+Dictionary
+1. add or edit data
+    - update(key:value)
+2. delete
+    - pop(key)
+    - popitem()
+    - clear()
+    - del
+3. others
+    - copy()
