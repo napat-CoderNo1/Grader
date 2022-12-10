@@ -1,0 +1,93 @@
+String
+ - len() # string, list, tuple, set
+ - strip() 
+ - lstrip()
+ - rstrip()
+ - upper()
+ - isupper()
+ - lower()
+ - islower()
+ - capitalize()
+ - replace(จะเปลื่ยน, ตัวใหม่)
+ - replace(จะเปลื่ยน, ตัวใหม่, เปลื่ยนกี่ตัว(int))
+ - format()
+ - startwith()
+ - endwith()
+
+list
+ - Access
+    - Ex. lis[index], lis[index:index]
+ - Add
+    - append(anything)
+    - insert(index , ตัวที่จะ insert)
+    - extend(list)
+    - extend(string)
+        - extend "abc" -> ['a', 'b', 'c']
+    - Ex. a=[1,2] and b=[3,4]
+        - a+b = [1,2,3,4]
+ - Delete
+    x=[1, "a", True, 1.02]
+    - remove() # remove(1) = remove(x[0]) -> any data type
+    - pop()
+    - pop(index)
+    - clear()
+    - del[index]
+    - del list's name
+ - Other
+    - count()
+    - max()
+    - min()
+    - sum()
+    - sort()
+    - reverse()
+    - list.index(ตัวที่ต้องการหา index)
+
+Tuple -> change to list first!!!
+ - Access
+    - Ex. tuple[index], tuple[index:index]
+
+Set
+ - Access !!Can't access by index!!
+ - Add
+    - add() # เพิ่มทีละตัว
+    - update(list or set) # เพิ่มทีละหลายตัว
+ - Delete
+    - discard()
+    - remove()
+    - clear()
+ - Operator
+    - union -> set1.union(set2)
+    - intersection -> set1.intersection(set2)
+    - difference -> set1.difference(set2) # set1 ต่างจาก set2 ยังไง
+    - issubset -> set1.issubset(set2)
+    - issupperset -> set1.issupperset(set2)
+
+Dictionary
+ - Access
+    - dictName[key] = value
+    - dictname.get(key) = value
+    - access key by value -> dict.py
+  - Add
+    - update({key:value})
+ - Delete
+    - pop(key)
+    - popitem()
+    - clear()
+
+Function
+ - Sort
+    - sort()
+    - sorted()
+ - Delete 
+    - pop()
+    - remove()
+ - Other
+    - max() list, tuple(แปลงเป็นlistก่อน), set
+    - min()
+    - chr(int)
+    - ord(char)
+    - type()
+    - copy()
+
+Tips
+ - Loop from the back
